@@ -11,11 +11,15 @@ int main(int argc, char *argv[]) {
         return 0;
     }
 
+    // Start randomness
     srand((unsigned) time(&t));
 
-    int numDigit = atoi(argv[1]);
+    // int numDigit = atoi(argv[1]);
+
+    // Change number of characters to integer
     int numChar = atoi(argv[1]);
 
+    // 
     int temp;
     char* genChar;
 

@@ -1,0 +1,3 @@
+CLIENT: Enter text to send to the server, and then hit enter: Num written 1
+CLIENT: ERROR writing to socketCLIENT: WARNING: Not all data written to socket!
+CLIENT: I received this from the server: "I am the server, and I got your message"

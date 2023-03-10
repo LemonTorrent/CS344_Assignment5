@@ -6,4 +6,8 @@ setup:
 	gcc -std=gnu99 -lm -o keygen keygen.c
 
 clean:
-	rm line_processor
+	rm enc_server 
+	rm enc_client 
+	rm dec_server 
+	rm dec_client 
+	rm keygen
